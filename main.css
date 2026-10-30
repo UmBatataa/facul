@@ -1,3 +1,15 @@
+.tiny5-duo-<uniquifier> {
+  font-family: "Tiny5 Duo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "BLED" 0,
+    "JITT" 0,
+    "ROND" 0;
+}
+
 *{
     margin: 0;
     box-sizing: ;
@@ -24,7 +36,7 @@ p{
   margin-top:100px;
 }
 
-h1{
+.geral{
     color:#0C5B26;
     font-size: 60px;
     display: flex;
@@ -153,4 +165,77 @@ footer {
 footer p {
   color: #e0f2e5;
   font-size: 0.9rem;
+}
+
+
+#popo{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1px 5%;
+    margin-top: 10px;
+    color: yellow;
+    text-align: center;
+    text-shadow: 3px 3px 5px #000000;
+    margin-bottom: 30px;
+    
+}
+
+#prop{
+    background-color:rgb(71, 29, 139);
+    border-radius: 3%;
+    border: 5px double yellow;
+    margin:35px;
+    align-content: center;
+    display: block;
+    font-family:"Tiny5 Duo", sans-serif;
+    text-align: center;
+    
+}
+
+#tex{
+    font-size: 25px;
+    color: white;
+}
+
+.vid2{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 28px;
+  max-width: 1200px;
+  margin: 35px auto 0;
+  border: 3px solid yellow;
+  border-radius: 2%;
+  margin-bottom: 10px;
+}
+
+.boto{
+  display: inline-block;
+  padding: 13px 23px;
+  border: 1px solid rgb(71, 29, 139);
+  border-radius: 8px;
+  background-color: yellow;
+  color: rgb(71, 29, 139);
+  font-weight: bold;
+  margin-left:10px;
+  margin-top: 10px ;
+  margin-bottom: 50px;
+  width: 300px;
+  height: ;
+}
+
+.boto:hover{
+  transform: scale(1.1);
+}
+
+.botao:hover{
+  transform: scale(1.1);
+}
+
+.gat{
+    width: 150px;
+    gap: 10px;
+    height: 150px;
 }
