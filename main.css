@@ -209,6 +209,11 @@ footer p {
   border: 3px solid yellow;
   border-radius: 2%;
   margin-bottom: 10px;
+  width: 560px;
+  height: 315px;
+  background-image: url("imagens/capa.jpeg" );
+  background-size: cover;
+  
 }
 
 .boto{
@@ -238,4 +243,16 @@ footer p {
     width: 150px;
     gap: 10px;
     height: 150px;
+}
+
+#videoeseta{
+    display: flex;
+
+}
+
+#seta{
+  transform: rotateZ(90deg);
+  margin-left:300px;
+  margin-top: 150px;
+  position: absolute;
 }
